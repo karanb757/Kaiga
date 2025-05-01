@@ -1,0 +1,15 @@
+.image-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.grayscale {
+  filter: grayscale(100%); /* Make the image black and white by default */
+  transition: filter 0.3s; /* Add a smooth transition effect */
+}
+
+.grayscale:hover {
+  filter: grayscale(
+    0%
+  ); /* Remove the grayscale filter on hover to make it colorful */
+}

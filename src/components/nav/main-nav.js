@@ -5,7 +5,6 @@ import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useTheme } from "next-themes"; 
-
 import { siteConfig } from "@/config/site";
 import { cn } from "@/lib/utils";
 
